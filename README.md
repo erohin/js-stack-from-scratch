@@ -1,6 +1,10 @@
 # JavaScript Stack from Scratch
 
-[![Build Status](https://travis-ci.org/verekia/js-stack-from-scratch.svg?branch=master)](https://travis-ci.org/verekia/js-stack-from-scratch) [![Join the chat at https://gitter.im/js-stack-from-scratch/Lobby](https://badges.gitter.im/js-stack-from-scratch/Lobby.svg)](https://gitter.im/js-stack-from-scratch/Lobby)
+[![Build Status](https://travis-ci.org/verekia/js-stack-from-scratch.svg?branch=master)](https://travis-ci.org/verekia/js-stack-from-scratch)
+[![Release](https://img.shields.io/github/release/verekia/js-stack-from-scratch.svg?style=flat-square)](https://github.com/verekia/js-stack-from-scratch/releases)
+[![Dependencies](https://img.shields.io/david/verekia/js-stack-boilerplate.svg?style=flat-square)](https://david-dm.org/verekia/js-stack-boilerplate)
+[![Dev Dependencies](https://img.shields.io/david/dev/verekia/js-stack-boilerplate.svg?style=flat-square)](https://david-dm.org/verekia/js-stack-boilerplate?type=dev)
+[![Gitter](https://img.shields.io/gitter/room/js-stack-from-scratch/Lobby.svg?style=flat-square)](https://gitter.im/js-stack-from-scratch/)
 
 [![React](/img/react-padded-90.png)](https://facebook.github.io/react/)
 [![Redux](/img/redux-padded-90.png)](http://redux.js.org/)
@@ -24,31 +28,33 @@ A big chunk of the stack described in this tutorial uses React. If you are begin
 
 Code examples are available for each chapter, and you can run them all with `yarn && yarn start`. I recommend writing everything from scratch yourself by following the **step-by-step instructions** though.
 
-Final code available in the [JS-Stack-Boilerplate repository](https://github.com/verekia/js-stack-boilerplate). It works on Linux, macOS, and Windows.
+Final code available in the [JS-Stack-Boilerplate repository](https://github.com/verekia/js-stack-boilerplate), and in the [releases](https://github.com/verekia/js-stack-from-scratch/releases). There is a [live demo](https://js-stack.herokuapp.com/) too.
+
+Works on Linux, macOS, and Windows.
 
 ## Table of contents
 
-[01 - Node, Yarn, `package.json`](/tutorial/01-node-yarn-package-json)
+[01 - Node, Yarn, `package.json`](/tutorial/01-node-yarn-package-json.md#readme)
 
-[02 - Babel, ES6, ESLint, Flow, Jest, Husky](/tutorial/02-babel-es6-eslint-flow-jest-husky)
+[02 - Babel, ES6, ESLint, Flow, Jest, Husky](/tutorial/02-babel-es6-eslint-flow-jest-husky.md#readme)
 
-[03 - Express, Nodemon, PM2](/tutorial/03-express-nodemon-pm2)
+[03 - Express, Nodemon, PM2](/tutorial/03-express-nodemon-pm2.md#readme)
 
-[04 - Webpack, React, HMR](/tutorial/04-webpack-react-hmr)
+[04 - Webpack, React, HMR](/tutorial/04-webpack-react-hmr.md#readme)
 
-[05 - Redux, Immutable, Fetch](/tutorial/05-redux-immutable-fetch)
+[05 - Redux, Immutable, Fetch](/tutorial/05-redux-immutable-fetch.md#readme)
 
-[06 - React Router, Server-Side Rendering, Helmet](/tutorial/06-react-router-ssr-helmet)
+[06 - React Router, Server-Side Rendering, Helmet](/tutorial/06-react-router-ssr-helmet.md#readme)
 
-[07 - Socket.IO](/tutorial/07-socket-io)
+[07 - Socket.IO](/tutorial/07-socket-io.md#readme)
 
-[08 - Bootstrap, JSS](/tutorial/08-bootstrap-jss)
+[08 - Bootstrap, JSS](/tutorial/08-bootstrap-jss.md#readme)
 
-[09 - Travis, Coveralls, Heroku](/tutorial/09-travis-coveralls-heroku)
+[09 - Travis, Coveralls, Heroku](/tutorial/09-travis-coveralls-heroku.md#readme)
 
 ## Coming up next
 
-Setting up your editor (Atom first), MongoDB, Progressive Web App.
+Setting up your editor (Atom first), MongoDB, Progressive Web App, E2E testing.
 
 ## Translations
 
@@ -56,15 +62,20 @@ If you want to add your translation, please read the [translation recommendation
 
 ### V2
 
-Your link here soon ;)
+- [Bulgarian](https://github.com/mihailgaberov/js-stack-from-scratch) by [mihailgaberov](http://github.com/mihailgaberov)
+- [Chinese (simplified)](https://github.com/yepbug/js-stack-from-scratch/) by [@yepbug](https://github.com/yepbug)
+- [French](https://github.com/naomihauret/js-stack-from-scratch/) by [Naomi Hauret](https://twitter.com/naomihauret)
+- [Italian](https://github.com/fbertone/guida-javascript-moderno) by [Fabrizio Bertone](https://github.com/fbertone) - [fbertone.it](http://fbertone.it)
+
+Check out the [ongoing translations](https://github.com/verekia/js-stack-from-scratch/issues/147).
 
 ### V1
 
-- [中文](https://github.com/pd4d10/js-stack-from-scratch) by [@pd4d10](http://github.com/pd4d10)
-- [Italiano](https://github.com/fbertone/js-stack-from-scratch) by [Fabrizio Bertone](https://github.com/fbertone)
-- [日本語](https://github.com/takahashim/js-stack-from-scratch) by [@takahashim](https://github.com/takahashim)
-- [Русский](https://github.com/UsulPro/js-stack-from-scratch) by [React Theming](https://github.com/sm-react/react-theming)
-- [ไทย](https://github.com/MicroBenz/js-stack-from-scratch) by [MicroBenz](https://github.com/MicroBenz)
+- [Chinese (simplified)](https://github.com/pd4d10/js-stack-from-scratch) by [@pd4d10](http://github.com/pd4d10)
+- [Italian](https://github.com/fbertone/js-stack-from-scratch) by [Fabrizio Bertone](https://github.com/fbertone)
+- [Japanese](https://github.com/takahashim/js-stack-from-scratch) by [@takahashim](https://github.com/takahashim)
+- [Russian](https://github.com/UsulPro/js-stack-from-scratch) by [React Theming](https://github.com/sm-react/react-theming)
+- [Thai](https://github.com/MicroBenz/js-stack-from-scratch) by [MicroBenz](https://github.com/MicroBenz)
 
 ## Credits
 
